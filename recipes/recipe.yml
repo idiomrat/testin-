@@ -23,7 +23,6 @@ modules:
       packages:
         - steam
         - input-remapper
-        - distrobox
     remove:
       packages:
         # example: removing firefox (in favor of the flatpak)
@@ -31,7 +30,6 @@ modules:
         - kmenuedit
         - kdebugsettings
         - firefox
-        - toolbox
         - kontact
         - kmail
         - thunderbird
@@ -47,6 +45,8 @@ modules:
         - akregator
         - knotes
         - akonadi
+        - akonadi-server
+        - kdebugsettings
         - kdepim-runtime
         - htop
         - fcitx5
