@@ -30,7 +30,6 @@ modules:
         - kmenuedit
         - kdebugsettings
         - firefox
-        - kinfocenter
         - kontact
         - kmail
         - thunderbird
