@@ -30,6 +30,7 @@ modules:
         - kmenuedit
         - kdebugsettings
         - firefox
+        - kinfocenter
         - kontact
         - kmail
         - thunderbird
@@ -44,8 +45,6 @@ modules:
         - kaddressbook
         - akregator
         - knotes
-        - akonadi
-        - akonadi-server
         - kdebugsettings
         - kdepim-runtime
         - htop
