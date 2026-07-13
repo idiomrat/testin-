@@ -3,6 +3,7 @@
 # image will be published to ghcr.io/<user>/<name>
 name: CreamyOS
 # description will be included in the image's metadata
+# test
 description: debloated bazzite
 
 # the base image to build on top of (FROM) and the version tag to use
