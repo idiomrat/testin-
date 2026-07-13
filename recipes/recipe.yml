@@ -24,6 +24,7 @@ modules:
         - steam
         - input-remapper
         - distrobox
+        - ffmpeg
     remove:
       packages:
         # example: removing firefox (in favor of the flatpak)
