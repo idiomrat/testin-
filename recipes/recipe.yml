@@ -43,6 +43,7 @@ modules:
         - korganizer
         - kaddressbook
         - akregator
+        - kinfocenter
         - knotes
         - kdebugsettings
         - kdepim-runtime
