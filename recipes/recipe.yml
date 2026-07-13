@@ -49,8 +49,13 @@ modules:
         - htop
         - fcitx5
         - nvtop
-        - kwalletmanager
-        
+        - kwalletmanager5
+        - krfb
+        - kde-connect
+        - kfind
+        - kwrite
+        - khelpcenter
+        - plasma-welcome
         - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
   - type: default-flatpaks
     configurations:
