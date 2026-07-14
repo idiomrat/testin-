@@ -4,7 +4,7 @@
 name: boxos
 # description will be included in the image's metadata
 # test
-description: debloated bazzite
+description: Fedora Kinoite tuned to my liking.
 
 # the base image to build on top of (FROM) and the version tag to use
 base-image: ghcr.io/ublue-os/kinoite-main
