@@ -25,6 +25,7 @@ modules:
         - steam
         - input-remapper
         - distrobox
+        - plasma-keyboard
     remove:
       packages:
         # example: removing firefox (in favor of the flatpak)
@@ -57,6 +58,10 @@ modules:
         - khelpcenter
         - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
         - kcharselect
+        - kdebugsettings
+        - fcitx5
+        - kwalletmanager5
+        - plasma-welcome
   - type: default-flatpaks
     configurations:
       - notify: false # Send notification after install/uninstall is finished (true/false)
