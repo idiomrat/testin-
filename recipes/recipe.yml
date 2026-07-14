@@ -54,7 +54,6 @@ modules:
         - kcharselect
         - kdebugsettings
         - fcitx5
-        - kwalletmanager5
         - plasma-welcome
   - type: default-flatpaks
     configurations:
