@@ -4,6 +4,7 @@
 name: boxos
 # description will be included in the image's metadata
 # test
+# test 2
 description: Fedora Kinoite tuned to my liking.
 
 # the base image to build on top of (FROM) and the version tag to use
