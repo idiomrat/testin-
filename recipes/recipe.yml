@@ -50,7 +50,6 @@ modules:
         - kdepim-runtime
         - htop
         - fcitx5
-        - akonadi
         - nvtop
         - kwalletmanager5
         - krfb
