@@ -57,8 +57,6 @@ modules:
         - fcitx5
         - kwalletmanager5
         - plasma-welcome
-        - akonadi
-        - akonadi-server
   - type: default-flatpaks
     configurations:
       - notify: false # Send notification after install/uninstall is finished (true/false)
