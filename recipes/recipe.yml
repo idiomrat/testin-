@@ -43,7 +43,6 @@ modules:
         - kinfocenter
         - knotes
         - kdebugsettings
-        - kdepim-runtime
         - htop
         - nvtop
         - krfb
