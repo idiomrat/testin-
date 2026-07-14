@@ -2,9 +2,6 @@
 # yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
 # image will be published to ghcr.io/<user>/<name>
 name: boxos
-# description will be included in the image's metadata
-# test
-# test 2
 description: Fedora Kinoite tuned to my liking.
 
 # the base image to build on top of (FROM) and the version tag to use
@@ -60,6 +57,8 @@ modules:
         - fcitx5
         - kwalletmanager5
         - plasma-welcome
+        - akonadi
+        - akonadi-server
   - type: default-flatpaks
     configurations:
       - notify: false # Send notification after install/uninstall is finished (true/false)
