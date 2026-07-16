@@ -52,6 +52,6 @@ curl -sSL "$FISH_URL" -o "$FISH_DEST"
 echo "Downloading the Input Remapper bindings..."
 mkdir -p "$HOME/.config/input-remapper-2/presets/Razer Razer Orbweaver Chroma/"
 BINDINGS_URL="https://raw.githubusercontent.com/idiomrat/osk-setup/refs/heads/main/new%20preset.json"
-BINDINGS_DEST="$HOME/.config/input-remapper-2/presets/Razer Razer Orbweaver Chroma/"
+BINDINGS_DEST="$HOME/.config/input-remapper-2/presets/Razer Razer Orbweaver Chroma/Main.json"
 
 echo "Setup complete! All files have been successfully downloaded and configured."
