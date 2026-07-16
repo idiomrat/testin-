@@ -17,7 +17,7 @@ echo "[1]
 Description=Keep Onboard from Stealing Focus
 acceptfocus=false
 acceptfocusrule=2
-types=4294967295
+types=1
 wmclass=onboard Onboard
 wmclasscomplete=true
 wmclassmatch=1
