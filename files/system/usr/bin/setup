@@ -13,6 +13,8 @@ distrobox enter a -- sudo apt update && distrobox enter a -- sudo apt upgrade &&
 input-event-source="GTK"
 EOF'
 
+touch ~/.config/kwinrulesrc
+
 echo "[1]
 Description=Keep Onboard from Stealing Focus
 acceptfocus=false
