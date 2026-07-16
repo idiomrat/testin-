@@ -26,7 +26,7 @@ wmclassmatch=1
 
 [General]
 count=1
-rules=1" > "~/.config/kwinrulesrc"
+rules=1" > ~/.config/kwinrulesrc
 
 echo "Ensuring target directories exist..."
 mkdir -p "$HOME/.local/share/applications"
