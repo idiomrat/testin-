@@ -8,7 +8,10 @@ distrobox create -n a -i ubuntu:24.04 -Y
 
 echo "Installing 'onboard' inside container 'a'..."
 # Distrobox shares your user privileges, but apt requires root within the container
-distrobox enter a -- sudo apt update && distrobox enter a -- sudo apt upgrade && distrobox stop a -Y && distrobox enter a -- sudo apt install -y onboard
+distrobox enter a -- sudo apt update && distrobox enter a -- sudo apt upgrade && distrobox stop a -Y && distrobox enter a -- sudo apt install -y onboard && distrobox enter a -- sudo bash -c 'cat > /usr/share/glib-2.0/schemas/99_onboard_fix.gschema.override <<EOF
+[org.onboard.keyboard]
+input-event-source="GTK"
+EOF'
 
 echo "Ensuring target directories exist..."
 mkdir -p "$HOME/.local/share/applications"
