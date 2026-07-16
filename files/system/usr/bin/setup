@@ -13,6 +13,19 @@ distrobox enter a -- sudo apt update && distrobox enter a -- sudo apt upgrade &&
 input-event-source="GTK"
 EOF'
 
+echo "[1]
+Description=Keep Onboard from Stealing Focus
+acceptfocus=false
+acceptfocusrule=2
+types=4294967295
+wmclass=onboard Onboard
+wmclasscomplete=true
+wmclassmatch=1
+
+[General]
+count=1
+rules=1" > "~/.config/kwinrulesrc"
+
 echo "Ensuring target directories exist..."
 mkdir -p "$HOME/.local/share/applications"
 mkdir -p "$HOME/.config/fish"
