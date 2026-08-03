@@ -22,6 +22,7 @@ modules:
         - steam
         - input-remapper
         - gnome-disk-utility
+        - lsp-plugins
     remove:
       packages:
         # example: removing firefox (in favor of the flatpak)
